@@ -1,0 +1,20 @@
+
+TidyPlatesWidgetData = {
+	["UnitLastSeen"] = {
+		["Racleur-d'os mâcheroc"] = 3487,
+		["Démolisseur capturé"] = 3487,
+		["Maraudeur mâcheroc"] = 3487,
+	},
+	["UnitDescriptions"] = {
+	},
+	["UnitGuild"] = {
+		["Maraudeur mâcheroc"] = "Cadavre niveau 3",
+		["Racleur-d'os mâcheroc"] = "Cadavre niveau 3",
+	},
+	["CachedAuraDurations"] = {
+	},
+	["UnitClass"] = {
+		["Maraudeur mâcheroc"] = "NPC",
+		["Racleur-d'os mâcheroc"] = "NPC",
+	},
+}

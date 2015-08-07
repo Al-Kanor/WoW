@@ -1,0 +1,32 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Barberose - Confrérie du Thorium"] = "Barberose - Confrérie du Thorium",
+	},
+	["profiles"] = {
+		["Barberose - Confrérie du Thorium"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -494.499431610107,
+					["x"] = 841.999389648438,
+					["w"] = 207.999969482422,
+					["h"] = 63.0000114440918,
+				},
+			},
+			["ReportLines"] = 1,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowWidth"] = 207.999969482422,
+			["MainWindowHeight"] = 63.0000114440918,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

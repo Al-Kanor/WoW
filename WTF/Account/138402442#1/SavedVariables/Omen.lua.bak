@@ -1,0 +1,13 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Barberose - Confrérie du Thorium"] = "Barberose - Confrérie du Thorium",
+	},
+	["profiles"] = {
+		["Barberose - Confrérie du Thorium"] = {
+			["PositionY"] = 614.999938964844,
+			["Shown"] = false,
+			["PositionX"] = 847.5,
+		},
+	},
+}

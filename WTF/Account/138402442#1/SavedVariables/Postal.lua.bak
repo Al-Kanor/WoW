@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Bryven|Confrérie du Thorium|Alliance|17|DRUID", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Bryven - Confrérie du Thorium"] = "Bryven - Confrérie du Thorium",
+	},
+	["profiles"] = {
+		["Bryven - Confrérie du Thorium"] = {
+		},
+	},
+}

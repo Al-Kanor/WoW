@@ -1,0 +1,835 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Barberose"] = {
+			["GUID"] = "Player-1127-05E7B718",
+			["LastEventHealth"] = {
+				"208 (100%)", -- [1]
+				"208 (100%)", -- [2]
+				"205 (98%)", -- [3]
+				"205 (98%)", -- [4]
+				"205 (98%)", -- [5]
+				"208 (100%)", -- [6]
+				"208 (100%)", -- [7]
+			},
+			["LastAttackedBy"] = "Maraudeur mâcheroc",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					11.31, -- [1]
+				},
+				["Damage"] = {
+					182, -- [1]
+				},
+				["DamageTaken"] = {
+					3, -- [1]
+				},
+				["ActiveTime"] = {
+					11.31, -- [1]
+				},
+			},
+			["enClass"] = "ROGUE",
+			["unit"] = "Barberose",
+			["level"] = 4,
+			["LastDamageAbility"] = "Mêlée",
+			["LastFightIn"] = 1,
+			["LastEventNum"] = {
+				[2] = 1.44230769230769,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 1,
+			["LastDamageTaken"] = 3,
+			["TimeLast"] = {
+				["ActiveTime"] = 181036.674,
+				["TimeDamage"] = 181036.674,
+				["OVERALL"] = 181036.674,
+				["DamageTaken"] = 181000.675,
+				["Damage"] = 181036.674,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 181036.958,
+			["NextEventNum"] = 8,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				98.5576923076923, -- [3]
+				98.5576923076923, -- [4]
+				98.5576923076923, -- [5]
+				100, -- [6]
+				100, -- [7]
+			},
+			["LastEvents"] = {
+				"Barberose Mêlée Lièvre alpin Crit -38 (Physical)", -- [1]
+				"Maraudeur mâcheroc Mêlée Barberose Hit -3 (Physical)", -- [2]
+				"Barberose Mêlée Maraudeur mâcheroc Hit -20 (Physical)", -- [3]
+				"Barberose Attaque pernicieuse Maraudeur mâcheroc Hit -31 (Physical)", -- [4]
+				"Barberose Mêlée Maraudeur mâcheroc Crit -11 (Physical)", -- [5]
+				"Barberose Mêlée Maraudeur mâcheroc Hit -20 (Physical)", -- [6]
+				"Barberose Attaque pernicieuse Maraudeur mâcheroc Crit -62 (Physical)", -- [7]
+			},
+			["Name"] = "Barberose",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+			},
+			["LastEventTimes"] = {
+				180987.372, -- [1]
+				181000.875, -- [2]
+				181001.536, -- [3]
+				181001.536, -- [4]
+				181002.349, -- [5]
+				181036.958, -- [6]
+				181036.958, -- [7]
+			},
+			["Fights"] = {
+				["Fight1"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas d'absorption"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas de résisté"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["Attacks"] = {
+						["Attaque pernicieuse"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 31,
+									["count"] = 1,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 31,
+						},
+						["Mêlée"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 20,
+									["count"] = 1,
+									["amount"] = 20,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 31,
+						},
+					},
+					["TimeSpent"] = {
+						["Lièvre alpin"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 0,
+								},
+								["Mêlée"] = {
+									["count"] = 4.31,
+								},
+							},
+							["amount"] = 4.31,
+						},
+					},
+					["DamageTaken"] = 3,
+					["WhoDamaged"] = {
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 31,
+						["Physical"] = 31,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Lièvre alpin"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 31,
+								},
+								["Mêlée"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["TimeDamage"] = 4.31,
+					["TimeDamaging"] = {
+						["Lièvre alpin"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 0,
+								},
+								["Mêlée"] = {
+									["count"] = 4.31,
+								},
+							},
+							["amount"] = 4.31,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 3,
+					},
+					["ActiveTime"] = 4.31,
+					["Damage"] = 62,
+				},
+				["LastFightData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas d'absorption"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas de résisté"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["Attacks"] = {
+						["Attaque pernicieuse"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 31,
+									["count"] = 1,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 31,
+						},
+						["Mêlée"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 20,
+									["count"] = 1,
+									["amount"] = 20,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 31,
+						},
+					},
+					["TimeSpent"] = {
+						["Lièvre alpin"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 0,
+								},
+								["Mêlée"] = {
+									["count"] = 4.31,
+								},
+							},
+							["amount"] = 4.31,
+						},
+					},
+					["DamageTaken"] = 3,
+					["WhoDamaged"] = {
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 31,
+						["Physical"] = 31,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Lièvre alpin"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 31,
+								},
+								["Mêlée"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["TimeDamage"] = 4.31,
+					["TimeDamaging"] = {
+						["Lièvre alpin"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 0,
+								},
+								["Mêlée"] = {
+									["count"] = 4.31,
+								},
+							},
+							["amount"] = 4.31,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 3,
+					},
+					["ActiveTime"] = 4.31,
+					["Damage"] = 62,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 0,
+								},
+								["Mêlée"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 0,
+								},
+								["Mêlée"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Attaque pernicieuse"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mêlée"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 0,
+								},
+								["Mêlée"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas d'absorption"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas de résisté"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["Attacks"] = {
+						["Attaque pernicieuse"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 62,
+									["min"] = 62,
+									["count"] = 1,
+									["amount"] = 62,
+								},
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 31,
+									["count"] = 1,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 93,
+						},
+						["Mêlée"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 38,
+									["min"] = 11,
+									["count"] = 2,
+									["amount"] = 49,
+								},
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 20,
+									["count"] = 2,
+									["amount"] = 40,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 89,
+						},
+					},
+					["TimeSpent"] = {
+						["Lièvre alpin"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 0,
+								},
+								["Mêlée"] = {
+									["count"] = 7.81,
+								},
+							},
+							["amount"] = 7.81,
+						},
+					},
+					["DamageTaken"] = 3,
+					["WhoDamaged"] = {
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 89,
+						["Physical"] = 93,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DamagedWho"] = {
+						["Lièvre alpin"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 93,
+								},
+								["Mêlée"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 144,
+						},
+					},
+					["TimeDamage"] = 11.31,
+					["TimeDamaging"] = {
+						["Lièvre alpin"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Maraudeur mâcheroc"] = {
+							["Details"] = {
+								["Attaque pernicieuse"] = {
+									["count"] = 0,
+								},
+								["Mêlée"] = {
+									["count"] = 7.81,
+								},
+							},
+							["amount"] = 7.81,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 3,
+					},
+					["ActiveTime"] = 11.31,
+					["Damage"] = 182,
+				},
+			},
+			["UnitLockout"] = 180986.671,
+			["LastActive"] = 181036.674,
+		},
+	},
+	["FightNum"] = 1,
+	["CombatTimes"] = {
+		{
+			181000.675, -- [1]
+			181003.678, -- [2]
+			"13:43:21", -- [3]
+			"13:43:24", -- [4]
+			"Maraudeur mâcheroc", -- [5]
+		}, -- [1]
+	},
+	["FoughtWho"] = {
+		"Maraudeur mâcheroc 13:43:21-13:43:24", -- [1]
+	},
+}

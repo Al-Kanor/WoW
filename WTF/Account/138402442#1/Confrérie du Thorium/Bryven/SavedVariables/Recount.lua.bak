@@ -1,0 +1,1873 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Bryven"] = {
+			["GUID"] = "Player-1127-05E85AFD",
+			["LastEventHealth"] = {
+				"630 (100%)", -- [1]
+				"630 (100%)", -- [2]
+				"630 (100%)", -- [3]
+				"630 (100%)", -- [4]
+				"630 (100%)", -- [5]
+				"630 (100%)", -- [6]
+				"630 (100%)", -- [7]
+				"608 (96%)", -- [8]
+				"608 (96%)", -- [9]
+				"592 (93%)", -- [10]
+				"592 (93%)", -- [11]
+				"592 (93%)", -- [12]
+				"592 (93%)", -- [13]
+				"533 (84%)", -- [14]
+				"517 (82%)", -- [15]
+				"517 (82%)", -- [16]
+				"504 (80%)", -- [17]
+				"504 (80%)", -- [18]
+				"489 (77%)", -- [19]
+				"489 (77%)", -- [20]
+				"476 (75%)", -- [21]
+				"476 (75%)", -- [22]
+				"476 (75%)", -- [23]
+				"462 (73%)", -- [24]
+				"462 (73%)", -- [25]
+				"462 (73%)", -- [26]
+				"450 (71%)", -- [27]
+				"630 (100%)", -- [28]
+				"630 (100%)", -- [29]
+				"630 (100%)", -- [30]
+				"630 (100%)", -- [31]
+				"630 (100%)", -- [32]
+				"630 (100%)", -- [33]
+				"630 (100%)", -- [34]
+				"630 (100%)", -- [35]
+				"630 (100%)", -- [36]
+				"630 (100%)", -- [37]
+				"630 (100%)", -- [38]
+				"630 (100%)", -- [39]
+				"630 (100%)", -- [40]
+				"630 (100%)", -- [41]
+				"630 (100%)", -- [42]
+				"612 (97%)", -- [43]
+				"612 (97%)", -- [44]
+				"612 (97%)", -- [45]
+				"612 (97%)", -- [46]
+				"630 (100%)", -- [47]
+				"630 (100%)", -- [48]
+				"630 (100%)", -- [49]
+				"630 (100%)", -- [50]
+			},
+			["LastAttackedBy"] = "Cerf de Sombrivage",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["RageGain"] = {
+					10, -- [1]
+				},
+				["ActiveTime"] = {
+					57.6, -- [1]
+				},
+				["DOT_Time"] = {
+					12, -- [1]
+				},
+				["TimeDamage"] = {
+					57.6, -- [1]
+				},
+				["DamageTaken"] = {
+					255, -- [1]
+				},
+				["Damage"] = {
+					2019, -- [1]
+				},
+			},
+			["enClass"] = "DRUID",
+			["unit"] = "Bryven",
+			["level"] = 17,
+			["LastDamageAbility"] = "Mêlée",
+			["LastFightIn"] = 2,
+			["LastEventNum"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				nil, -- [4]
+				nil, -- [5]
+				0.317460317460317, -- [6]
+				3.17460317460317, -- [7]
+				nil, -- [8]
+				2.53968253968254, -- [9]
+				nil, -- [10]
+				nil, -- [11]
+				nil, -- [12]
+				nil, -- [13]
+				2.53968253968254, -- [14]
+				nil, -- [15]
+				2.06349206349206, -- [16]
+				[20] = 2.06349206349206,
+				[31] = 0.158730158730159,
+				[18] = 2.38095238095238,
+				[46] = 2.85714285714286,
+				[26] = 1.9047619047619,
+				[23] = 2.22222222222222,
+				[42] = 2.85714285714286,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 3,
+			["LastAbility"] = 695509.564,
+			["LastDamageTaken"] = 16,
+			["Owner"] = false,
+			["TimeLast"] = {
+				["RageGain"] = 695221.902,
+				["DOT_Time"] = 695122.902,
+				["ActiveTime"] = 695508.906,
+				["TimeDamage"] = 695508.906,
+				["OVERALL"] = 695508.906,
+				["DamageTaken"] = 695506.901,
+				["Damage"] = 695508.906,
+			},
+			["NextEventNum"] = 14,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				96.5079365079365, -- [8]
+				96.5079365079365, -- [9]
+				93.968253968254, -- [10]
+				93.968253968254, -- [11]
+				93.968253968254, -- [12]
+				93.968253968254, -- [13]
+				84.6031746031746, -- [14]
+				82.0634920634921, -- [15]
+				82.0634920634921, -- [16]
+				80, -- [17]
+				80, -- [18]
+				77.6190476190476, -- [19]
+				77.6190476190476, -- [20]
+				75.5555555555556, -- [21]
+				75.5555555555556, -- [22]
+				75.5555555555556, -- [23]
+				73.3333333333333, -- [24]
+				73.3333333333333, -- [25]
+				73.3333333333333, -- [26]
+				71.4285714285714, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				97.1428571428572, -- [43]
+				97.1428571428572, -- [44]
+				97.1428571428572, -- [45]
+				97.1428571428572, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Bryven Mêlée Biche tachetée Hit -66 (Physical)", -- [1]
+				"Biche tachetée Mêlée Bryven Miss (1)", -- [2]
+				"Bryven Mêlée Biche tachetée Hit -67 (Physical)", -- [3]
+				"Biche tachetée Mêlée Bryven Dodge (1)", -- [4]
+				"Bryven Mêlée Biche tachetée Hit -68 (Physical)", -- [5]
+				"Biche tachetée Mêlée Bryven Hit -2 (Physical)", -- [6]
+				"Cerf de Sombrivage Mêlée Bryven Hit -20 (Physical)", -- [7]
+				"Cerf de Sombrivage Mêlée Bryven Dodge (1)", -- [8]
+				"Cerf de Sombrivage Mêlée Bryven Hit -16 (Physical)", -- [9]
+				"Bryven Mêlée Cerf de Sombrivage Hit -49 (Physical)", -- [10]
+				"Bryven Lambeau Cerf de Sombrivage Hit -132 (Physical)", -- [11]
+				"Bryven Mêlée Cerf de Sombrivage Hit -52 (Physical)", -- [12]
+				"Bryven Lambeau Cerf de Sombrivage Hit -132 (Physical)", -- [13]
+				"Traquelune Mêlée Bryven Hit -16 (Physical)", -- [14]
+				"Bryven Eclat lunaire Traquelune Hit -27 (Arcane)", -- [15]
+				"Traquelune Mêlée Bryven Hit -13 (Physical)", -- [16]
+				"Bryven Eclat lunaire (DoT) Traquelune Tick -19 (Arcane)", -- [17]
+				"Traquelune Mêlée Bryven Hit -15 (Physical)", -- [18]
+				"Bryven Eclat lunaire Traquelune Hit -26 (Arcane)", -- [19]
+				"Traquelune Mêlée Bryven Hit -13 (Physical)", -- [20]
+				"Bryven Eclat lunaire (DoT) Traquelune Tick -18 (Arcane)", -- [21]
+				"Bryven Eclat solaire Traquelune Hit -26 (Nature)", -- [22]
+				"Traquelune Mêlée Bryven Hit -14 (Physical)", -- [23]
+				"Bryven Eclat solaire Traquelune Hit -28 (Nature)", -- [24]
+				"Bryven Eclat lunaire (DoT) Traquelune Tick -18 (Arcane)", -- [25]
+				"Traquelune Mêlée Bryven Hit -12 (Physical)", -- [26]
+				"Bryven Eclat solaire (DoT) Traquelune Tick -20 (Nature)", -- [27]
+				"Bryven Mêlée Biche tachetée Hit -67 (Physical)", -- [28]
+				"Biche tachetée Mêlée Bryven Dodge (1)", -- [29]
+				"Bryven Mêlée Biche tachetée Hit -69 (Physical)", -- [30]
+				"Biche tachetée Mêlée Bryven Hit -1 (Physical)", -- [31]
+				"Bryven Mêlée Cerf de Sombrivage Hit -51 (Physical)", -- [32]
+				"Cerf de Sombrivage Mêlée Bryven Miss (1)", -- [33]
+				"Bryven Lambeau Cerf de Sombrivage Hit -135 (Physical)", -- [34]
+				"Bryven Mêlée Cerf de Sombrivage Hit -51 (Physical)", -- [35]
+				"Bryven Lambeau Cerf de Sombrivage Hit -132 (Physical)", -- [36]
+				"Bryven Mêlée Biche tachetée Hit -67 (Physical)", -- [37]
+				"Biche tachetée Mêlée Bryven Miss (1)", -- [38]
+				"Bryven Mêlée Biche tachetée Hit -69 (Physical)", -- [39]
+				"Biche tachetée Mêlée Bryven Miss (1)", -- [40]
+				"Bryven Mêlée Cerf de Sombrivage Hit -50 (Physical)", -- [41]
+				"Cerf de Sombrivage Mêlée Bryven Hit -18 (Physical)", -- [42]
+				"Bryven Lambeau Cerf de Sombrivage Hit -138 (Physical)", -- [43]
+				"Bryven Mêlée Cerf de Sombrivage Hit -49 (Physical)", -- [44]
+				"Bryven Mêlée Cerf de Sombrivage Crit -102 (Physical)", -- [45]
+				"Cerf de Sombrivage Mêlée Bryven Hit -18 (Physical)", -- [46]
+				"Bryven Mêlée Biche tachetée Hit -68 (Physical)", -- [47]
+				"Biche tachetée Mêlée Bryven Dodge (1)", -- [48]
+				"Bryven Mêlée Biche tachetée Hit -66 (Physical)", -- [49]
+				"Biche tachetée Mêlée Bryven Miss (1)", -- [50]
+			},
+			["Name"] = "Bryven",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				true, -- [14]
+				false, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				true, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				false, -- [27]
+				false, -- [28]
+				true, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				true, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				true, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				true, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				true, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				695489.63, -- [1]
+				695489.63, -- [2]
+				695492.506, -- [3]
+				695492.506, -- [4]
+				695503.766, -- [5]
+				695503.766, -- [6]
+				695503.766, -- [7]
+				695505.818, -- [8]
+				695507.824, -- [9]
+				695508.365, -- [10]
+				695508.365, -- [11]
+				695509.317, -- [12]
+				695509.564, -- [13]
+				695116.809, -- [14]
+				695117.114, -- [15]
+				695118.103, -- [16]
+				695119.137, -- [17]
+				695119.354, -- [18]
+				695119.864, -- [19]
+				695120.728, -- [20]
+				695121.124, -- [21]
+				695121.603, -- [22]
+				695122.026, -- [23]
+				695123.112, -- [24]
+				695123.112, -- [25]
+				695123.325, -- [26]
+				695123.608, -- [27]
+				695294.807, -- [28]
+				695294.807, -- [29]
+				695305.914, -- [30]
+				695305.914, -- [31]
+				695326.437, -- [32]
+				695326.437, -- [33]
+				695326.437, -- [34]
+				695327.416, -- [35]
+				695327.599, -- [36]
+				695412.351, -- [37]
+				695412.351, -- [38]
+				695437.51, -- [39]
+				695437.51, -- [40]
+				695444.671, -- [41]
+				695444.671, -- [42]
+				695445.162, -- [43]
+				695445.618, -- [44]
+				695446.685, -- [45]
+				695446.685, -- [46]
+				695474.173, -- [47]
+				695474.173, -- [48]
+				695479.853, -- [49]
+				695479.853, -- [50]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+						["Bryven"] = {
+							["Details"] = {
+								["Forme d'ours"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 67,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 67,
+					},
+					["PartialAbsorb"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas d'absorption"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 67,
+								},
+							},
+							["amount"] = 67,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas de résisté"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+						["Forme d'ours"] = {
+							["Details"] = {
+								["Bryven"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 67,
+									["min"] = 67,
+									["count"] = 1,
+									["amount"] = 67,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 67,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 10,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+						["Eclat lunaire (DoT)"] = {
+							["Details"] = {
+								["Traquelune"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Eclat solaire (DoT)"] = {
+							["Details"] = {
+								["Traquelune"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeSpent"] = {
+						["Traquelune"] = {
+							["Details"] = {
+								["Eclat solaire (DoT)"] = {
+									["count"] = 0.5,
+								},
+								["Feu stellaire"] = {
+									["count"] = 3.5,
+								},
+								["Eclat solaire"] = {
+									["count"] = 1.99,
+								},
+								["Eclat lunaire (DoT)"] = {
+									["count"] = 3.28,
+								},
+								["Eclat lunaire"] = {
+									["count"] = 2.57,
+								},
+							},
+							["amount"] = 11.84,
+						},
+					},
+					["DamageTaken"] = 180,
+					["PartialResist"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas de résisté"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 18,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas d'absorption"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 11.84,
+					["ElementTaken"] = {
+						["Melee"] = 180,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 339,
+					["Attacks"] = {
+						["Eclat solaire (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 20,
+									["min"] = 20,
+									["count"] = 1,
+									["amount"] = 20,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 20,
+						},
+						["Feu stellaire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 157,
+									["min"] = 157,
+									["count"] = 1,
+									["amount"] = 157,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 157,
+						},
+						["Eclat solaire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 26,
+									["count"] = 2,
+									["amount"] = 54,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 54,
+						},
+						["Eclat lunaire (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 19,
+									["min"] = 18,
+									["count"] = 3,
+									["amount"] = 55,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 55,
+						},
+						["Eclat lunaire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 27,
+									["min"] = 26,
+									["count"] = 2,
+									["amount"] = 53,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 53,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DamagedWho"] = {
+						["Traquelune"] = {
+							["Details"] = {
+								["Eclat solaire (DoT)"] = {
+									["count"] = 20,
+								},
+								["Feu stellaire"] = {
+									["count"] = 157,
+								},
+								["Eclat solaire"] = {
+									["count"] = 54,
+								},
+								["Eclat lunaire (DoT)"] = {
+									["count"] = 55,
+								},
+								["Eclat lunaire"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 339,
+						},
+					},
+					["TimeDamage"] = 11.84,
+					["WhoDamaged"] = {
+						["Traquelune"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 180,
+								},
+							},
+							["amount"] = 180,
+						},
+					},
+					["ElementDone"] = {
+						["Nature"] = 74,
+						["Arcane"] = 265,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+								["Miss"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["TimeDamaging"] = {
+						["Traquelune"] = {
+							["Details"] = {
+								["Eclat solaire (DoT)"] = {
+									["count"] = 0.5,
+								},
+								["Feu stellaire"] = {
+									["count"] = 3.5,
+								},
+								["Eclat solaire"] = {
+									["count"] = 1.99,
+								},
+								["Eclat lunaire (DoT)"] = {
+									["count"] = 3.28,
+								},
+								["Eclat lunaire"] = {
+									["count"] = 2.57,
+								},
+							},
+							["amount"] = 11.84,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 38,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 38,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 433,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 169,
+						["Physical"] = 264,
+					},
+					["PartialAbsorb"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas d'absorption"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 68,
+								},
+							},
+							["amount"] = 68,
+						},
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Lambeau"] = {
+									["count"] = 264,
+								},
+								["Mêlée"] = {
+									["count"] = 101,
+								},
+							},
+							["amount"] = 365,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas de résisté"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Lambeau"] = {
+									["count"] = 0.25,
+								},
+								["Mêlée"] = {
+									["count"] = 4.45,
+								},
+							},
+							["amount"] = 4.7,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 8.2,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Lambeau"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 132,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 264,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 264,
+						},
+						["Mêlée"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 68,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 169,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 169,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 8.2,
+					["TimeDamaging"] = {
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Lambeau"] = {
+									["count"] = 0.25,
+								},
+								["Mêlée"] = {
+									["count"] = 4.45,
+								},
+							},
+							["amount"] = 4.7,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 38,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 38,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 433,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 169,
+						["Physical"] = 264,
+					},
+					["PartialAbsorb"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas d'absorption"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 68,
+								},
+							},
+							["amount"] = 68,
+						},
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Lambeau"] = {
+									["count"] = 264,
+								},
+								["Mêlée"] = {
+									["count"] = 101,
+								},
+							},
+							["amount"] = 365,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas de résisté"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Lambeau"] = {
+									["count"] = 0.25,
+								},
+								["Mêlée"] = {
+									["count"] = 4.45,
+								},
+							},
+							["amount"] = 4.7,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 8.2,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Lambeau"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 132,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 264,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 264,
+						},
+						["Mêlée"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 68,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 169,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 169,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 8.2,
+					["TimeDamaging"] = {
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Lambeau"] = {
+									["count"] = 0.25,
+								},
+								["Mêlée"] = {
+									["count"] = 4.45,
+								},
+							},
+							["amount"] = 4.7,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Eclat lunaire (DoT)"] = {
+							["Details"] = {
+								["Traquelune"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Eclat solaire (DoT)"] = {
+							["Details"] = {
+								["Traquelune"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeSpent"] = {
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Lambeau"] = {
+									["count"] = 0.92,
+								},
+								["Mêlée"] = {
+									["count"] = 13.96,
+								},
+							},
+							["amount"] = 14.88,
+						},
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 30.88,
+								},
+							},
+							["amount"] = 30.88,
+						},
+						["Traquelune"] = {
+							["Details"] = {
+								["Eclat solaire (DoT)"] = {
+									["count"] = 0.5,
+								},
+								["Feu stellaire"] = {
+									["count"] = 3.5,
+								},
+								["Eclat solaire"] = {
+									["count"] = 1.99,
+								},
+								["Eclat lunaire (DoT)"] = {
+									["count"] = 3.28,
+								},
+								["Eclat lunaire"] = {
+									["count"] = 2.57,
+								},
+							},
+							["amount"] = 11.84,
+						},
+					},
+					["DamageTaken"] = 255,
+					["RageGainedFrom"] = {
+						["Bryven"] = {
+							["Details"] = {
+								["Forme d'ours"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["PartialResist"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas de résisté"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 33,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 33,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Mêlée"] = {
+							["Details"] = {
+								["Pas d'absorption"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 33,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 33,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 57.6,
+					["ElementTaken"] = {
+						["Melee"] = 255,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 2019,
+					["RageGained"] = {
+						["Forme d'ours"] = {
+							["Details"] = {
+								["Bryven"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 16,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["Attacks"] = {
+						["Eclat solaire (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 20,
+									["min"] = 20,
+									["count"] = 1,
+									["amount"] = 20,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 20,
+						},
+						["Feu stellaire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 157,
+									["min"] = 157,
+									["count"] = 1,
+									["amount"] = 157,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 157,
+						},
+						["Eclat solaire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 26,
+									["count"] = 2,
+									["amount"] = 54,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 54,
+						},
+						["Lambeau"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 138,
+									["min"] = 132,
+									["count"] = 5,
+									["amount"] = 669,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 669,
+						},
+						["Mêlée"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 102,
+									["min"] = 102,
+									["count"] = 1,
+									["amount"] = 102,
+								},
+								["Hit"] = {
+									["max"] = 69,
+									["min"] = 49,
+									["count"] = 15,
+									["amount"] = 909,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 1011,
+						},
+						["Eclat lunaire (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 19,
+									["min"] = 18,
+									["count"] = 3,
+									["amount"] = 55,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 55,
+						},
+						["Eclat lunaire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 27,
+									["min"] = 26,
+									["count"] = 2,
+									["amount"] = 53,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 53,
+						},
+					},
+					["RageGain"] = 10,
+					["DamagedWho"] = {
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Lambeau"] = {
+									["count"] = 669,
+								},
+								["Mêlée"] = {
+									["count"] = 404,
+								},
+							},
+							["amount"] = 1073,
+						},
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 607,
+								},
+							},
+							["amount"] = 607,
+						},
+						["Traquelune"] = {
+							["Details"] = {
+								["Eclat solaire (DoT)"] = {
+									["count"] = 20,
+								},
+								["Feu stellaire"] = {
+									["count"] = 157,
+								},
+								["Eclat solaire"] = {
+									["count"] = 54,
+								},
+								["Eclat lunaire (DoT)"] = {
+									["count"] = 55,
+								},
+								["Eclat lunaire"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 339,
+						},
+					},
+					["TimeDamage"] = 57.6,
+					["WhoDamaged"] = {
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 72,
+								},
+							},
+							["amount"] = 72,
+						},
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Traquelune"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 180,
+								},
+							},
+							["amount"] = 180,
+						},
+					},
+					["ElementDone"] = {
+						["Nature"] = 74,
+						["Physical"] = 669,
+						["Melee"] = 1011,
+						["Arcane"] = 265,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 19,
+								},
+								["Miss"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
+					["TimeDamaging"] = {
+						["Cerf de Sombrivage"] = {
+							["Details"] = {
+								["Lambeau"] = {
+									["count"] = 0.92,
+								},
+								["Mêlée"] = {
+									["count"] = 13.96,
+								},
+							},
+							["amount"] = 14.88,
+						},
+						["Biche tachetée"] = {
+							["Details"] = {
+								["Mêlée"] = {
+									["count"] = 30.88,
+								},
+							},
+							["amount"] = 30.88,
+						},
+						["Traquelune"] = {
+							["Details"] = {
+								["Eclat solaire (DoT)"] = {
+									["count"] = 0.5,
+								},
+								["Feu stellaire"] = {
+									["count"] = 3.5,
+								},
+								["Eclat solaire"] = {
+									["count"] = 1.99,
+								},
+								["Eclat lunaire (DoT)"] = {
+									["count"] = 3.28,
+								},
+								["Eclat lunaire"] = {
+									["count"] = 2.57,
+								},
+							},
+							["amount"] = 11.84,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 695100.905,
+			["LastActive"] = 695508.906,
+		},
+	},
+	["FightNum"] = 3,
+	["CombatTimes"] = {
+		{
+			695100.905, -- [1]
+			695124.905, -- [2]
+			"12:31:32", -- [3]
+			"12:31:56", -- [4]
+			"Traquelune", -- [5]
+		}, -- [1]
+		{
+			695293.901, -- [1]
+			695296.911, -- [2]
+			"12:34:46", -- [3]
+			"12:34:48", -- [4]
+			"Biche tachetée", -- [5]
+		}, -- [2]
+		{
+			695502.91, -- [1]
+			695510.909, -- [2]
+			"12:38:15", -- [3]
+			"12:38:22", -- [4]
+			"Biche tachetée", -- [5]
+		}, -- [3]
+	},
+	["FoughtWho"] = {
+		"Biche tachetée 12:38:15-12:38:22", -- [1]
+		"Biche tachetée 12:34:46-12:34:48", -- [2]
+		"Traquelune 12:31:32-12:31:56", -- [3]
+	},
+}

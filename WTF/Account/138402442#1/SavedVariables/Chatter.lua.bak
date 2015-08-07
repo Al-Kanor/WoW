@@ -1,0 +1,160 @@
+
+ChatterDB = {
+	["namespaces"] = {
+		["PlayerNames"] = {
+		},
+		["AltLinks"] = {
+		},
+		["Scrollback"] = {
+		},
+		["Invite Links"] = {
+			["profiles"] = {
+				["Default"] = {
+					["words"] = {
+						["inv"] = "inv",
+						["invite"] = "invite",
+					},
+				},
+			},
+		},
+		["ChannelColors"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["Crier"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.250980406999588,
+							["r"] = 1,
+						},
+						["Conversation (nom réel)"] = {
+							["b"] = 0.941176533699036,
+							["g"] = 0.694117665290833,
+							["r"] = 0,
+						},
+						["Instance"] = {
+							["b"] = 0,
+							["g"] = 0.498039245605469,
+							["r"] = 1,
+						},
+						["Murmure (nom réel)"] = {
+							["b"] = 0.964705944061279,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["Chuchoter"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["Canaux de guilde"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 1,
+							["r"] = 0.250980406999588,
+						},
+						["Chef d’instance"] = {
+							["b"] = 0.0352941192686558,
+							["g"] = 0.282352954149246,
+							["r"] = 1,
+						},
+						["Groupe"] = {
+							["b"] = 1,
+							["g"] = 0.666666686534882,
+							["r"] = 0.666666686534882,
+						},
+						["Chef de raid"] = {
+							["b"] = 0.0352941192686558,
+							["g"] = 0.282352954149246,
+							["r"] = 1,
+						},
+						["Avertissement raid"] = {
+							["b"] = 0,
+							["g"] = 0.282352954149246,
+							["r"] = 1,
+						},
+						["Officier"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.752941250801086,
+							["r"] = 0.250980406999588,
+						},
+						["Raid"] = {
+							["b"] = 0,
+							["g"] = 0.498039245605469,
+							["r"] = 1,
+						},
+						["Chef de groupe"] = {
+							["b"] = 1,
+							["g"] = 0.784313797950745,
+							["r"] = 0.462745130062103,
+						},
+						["Dire"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
+			},
+		},
+		["StickyChannels"] = {
+		},
+		["RealIdPolish"] = {
+		},
+		["ChatFrameBorders"] = {
+		},
+		["Buttons"] = {
+		},
+		["Server Positioning"] = {
+		},
+		["JustifyText"] = {
+		},
+		["Timestamps"] = {
+		},
+		["EditBox"] = {
+		},
+		["Highlight"] = {
+		},
+		["ChatTabs"] = {
+		},
+		["ChannelNames"] = {
+		},
+		["CopyChat"] = {
+		},
+		["UrlCopy"] = {
+		},
+		["Editbox History"] = {
+			["realm"] = {
+				["Confrérie du Thorium"] = {
+					["history"] = {
+						"/zperl", -- [1]
+						"/ncb", -- [2]
+						"/ncb exit", -- [3]
+						"/zperl", -- [4]
+						"/s :SIFFLER", -- [5]
+						"/s siffler", -- [6]
+						"/siffler", -- [7]
+						"/siffler", -- [8]
+						"/siffler", -- [9]
+						"/siffler", -- [10]
+						"/siffle", -- [11]
+						"/siffle", -- [12]
+						"/siffle", -- [13]
+						"/macro", -- [14]
+						"/sexymap", -- [15]
+					},
+				},
+			},
+		},
+		["ChatFont"] = {
+		},
+		["Mousewheel Scroll"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Barberose - Confrérie du Thorium"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["welcomeMessaged"] = true,
+		},
+	},
+}
