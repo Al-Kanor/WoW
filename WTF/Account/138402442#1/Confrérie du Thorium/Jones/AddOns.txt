@@ -1,1 +1,7 @@
 ZPerl_Options: enabled
+HealBot: disabled
+Omen: disabled
+TidyPlates: disabled
+VuhDo: disabled
+VuhDoOptions: disabled
+ZPerl: enabled

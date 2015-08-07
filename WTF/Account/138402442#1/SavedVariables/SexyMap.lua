@@ -321,10 +321,10 @@ SexyMap2DB = {
 			["visibilitySettings"] = {
 				["MinimapZoomIn"] = "never",
 				["MinimapZoneTextButton"] = "always",
-				["MiniMapMailFrame"] = "always",
+				["TimeManagerClockButton"] = "always",
 				["QueueStatusMinimapButton"] = "always",
 				["GarrisonLandingPageMinimapButton"] = "always",
-				["TimeManagerClockButton"] = "always",
+				["MiniMapMailFrame"] = "always",
 				["MinimapZoomOut"] = "never",
 				["MiniMapWorldMapButton"] = "never",
 			},
@@ -435,8 +435,8 @@ SexyMap2DB = {
 		["core"] = {
 			["clamp"] = true,
 			["lock"] = false,
-			["shape"] = "Interface\\AddOns\\SexyMap\\shapes\\circle.tga",
 			["northTag"] = true,
+			["shape"] = "Interface\\AddOns\\SexyMap\\shapes\\circle.tga",
 			["autoZoom"] = 5,
 			["rightClickToConfig"] = true,
 		},

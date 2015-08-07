@@ -1,2 +1,10 @@
 ZPerl_Options: enabled
 XPerl_TeamSpeak: disabled
+HealBot: disabled
+Omen: disabled
+TidyPlates: disabled
+VuhDo: disabled
+VuhDoOptions: disabled
+ZPerl: enabled
+ZPerl_RaidFrames: enabled
+ZPerl_ArcaneBar: enabled

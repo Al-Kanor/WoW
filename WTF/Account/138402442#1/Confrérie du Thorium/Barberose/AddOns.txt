@@ -1,4 +1,4 @@
-TidyPlates: enabled
+TidyPlates: disabled
 TidyPlatesHub: enabled
 TidyPlatesWidgets: enabled
 TidyPlates_Graphite: enabled
@@ -12,7 +12,7 @@ Bagnon_Config: enabled
 Bagnon_GuildBank: enabled
 Bagnon_VoidStorage: enabled
 Bartender4: enabled
-Omen: enabled
+Omen: disabled
 DBM-Core: disabled
 DBM-DefaultSkin: disabled
 DBM-GUI: disabled
@@ -46,3 +46,6 @@ ZPerl_TargetTarget: enabled
 ZPerl_Target: enabled
 SexyMap: enabled
 Chatter: disabled
+HealBot: disabled
+VuhDo: disabled
+VuhDoOptions: disabled
