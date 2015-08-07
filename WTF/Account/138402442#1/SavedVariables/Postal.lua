@@ -1,21 +1,27 @@
 
 Postal3DB = {
-	["profileKeys"] = {
-		["Jones - Confrérie du Thorium"] = "Jones - Confrérie du Thorium",
-		["Bryven - Confrérie du Thorium"] = "Bryven - Confrérie du Thorium",
-		["Barberose - Confrérie du Thorium"] = "Barberose - Confrérie du Thorium",
-	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
 				"Barberose|Confrérie du Thorium|Alliance|13|ROGUE", -- [1]
 				"Bryven|Confrérie du Thorium|Alliance|32|DRUID", -- [2]
 				"Jones|Confrérie du Thorium|Alliance|1|SHAMAN", -- [3]
+				"Patron|Confrérie du Thorium|Neutral|1|WARRIOR", -- [4]
 			},
 		},
 	},
+	["profileKeys"] = {
+		["Patron - Confrérie du Thorium"] = "Patron - Confrérie du Thorium",
+		["Jones - Confrérie du Thorium"] = "Jones - Confrérie du Thorium",
+		["Barberose - Confrérie du Thorium"] = "Barberose - Confrérie du Thorium",
+		["Bryven - Confrérie du Thorium"] = "Bryven - Confrérie du Thorium",
+	},
 	["profiles"] = {
+		["Patron - Confrérie du Thorium"] = {
+		},
 		["Jones - Confrérie du Thorium"] = {
+		},
+		["Barberose - Confrérie du Thorium"] = {
 		},
 		["Bryven - Confrérie du Thorium"] = {
 			["BlackBook"] = {
@@ -23,8 +29,6 @@ Postal3DB = {
 					"Hakraël|Confrérie du Thorium|Alliance", -- [1]
 				},
 			},
-		},
-		["Barberose - Confrérie du Thorium"] = {
 		},
 	},
 }

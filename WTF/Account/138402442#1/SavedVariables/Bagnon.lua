@@ -16,29 +16,29 @@ Bagnon_Sets = {
 			},
 			["scale"] = 1,
 			["alpha"] = 1,
-			["y"] = 226.499786376953,
-			["x"] = 0,
+			["y"] = 178.500015258789,
+			["x"] = -0.999755859375,
 			["borderColor"] = {
 			},
+			["showBags"] = true,
+			["itemScale"] = 1,
 			["color"] = {
 			},
-			["itemScale"] = 1,
-			["showBags"] = true,
 		},
 		["vault"] = {
 			["color"] = {
 			},
-			["hiddenBags"] = {
-			},
 			["borderColor"] = {
+			},
+			["hiddenBags"] = {
 			},
 		},
 		["guild"] = {
 			["color"] = {
 			},
-			["hiddenBags"] = {
-			},
 			["borderColor"] = {
+			},
+			["hiddenBags"] = {
 			},
 		},
 		["bank"] = {
@@ -49,10 +49,10 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["showBags"] = true,
 			["hiddenBags"] = {
 				[-1] = false,
 			},
+			["showBags"] = true,
 		},
 	},
 	["engineerColor"] = {
@@ -63,18 +63,18 @@ Bagnon_Sets = {
 	},
 	["inscribeColor"] = {
 	},
-	["reagentColor"] = {
+	["herbColor"] = {
+	},
+	["normalColor"] = {
+	},
+	["enchantColor"] = {
+	},
+	["gemColor"] = {
 	},
 	["players"] = {
 		["Confrérie du Thorium"] = {
 		},
 	},
-	["gemColor"] = {
-	},
-	["enchantColor"] = {
-	},
-	["normalColor"] = {
-	},
-	["herbColor"] = {
+	["reagentColor"] = {
 	},
 }
