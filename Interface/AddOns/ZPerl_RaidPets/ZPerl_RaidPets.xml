@@ -113,7 +113,7 @@
 					</OnLoad>
 				</Scripts>
 			</StatusBar>
-			<Frame name="$parentHighlight" inherits="XPerl_HighlightTemplate" setAllPoints="true"/>
+			<Frame name="$parenthighlight" inherits="XPerl_HighlightTemplate" setAllPoints="true"/>
 		</Frames>
 	</Button>
 	<Frame name="XPerl_Raid_TitlePets" parent="UIParent" inherits="XPerl_Raid_TitleDragTemplate" id="99">

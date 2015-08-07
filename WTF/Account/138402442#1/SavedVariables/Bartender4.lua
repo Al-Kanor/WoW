@@ -3,6 +3,72 @@ Bartender4DB = {
 	["namespaces"] = {
 		["ActionBars"] = {
 			["profiles"] = {
+				["Jones - Confrérie du Thorium"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 41.75,
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+								["y"] = -227.499923706055,
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = 3,
+								["point"] = "BOTTOM",
+								["y"] = 83,
+							},
+							["padding"] = 6,
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 83,
+							},
+							["padding"] = 6,
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
 				["Barberose - Confrérie du Thorium"] = {
 					["actionbars"] = {
 						{
@@ -73,26 +139,25 @@ Bartender4DB = {
 				["Bryven - Confrérie du Thorium"] = {
 					["actionbars"] = {
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 41.75,
 								["x"] = -510,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [1]
 						{
-							["showgrid"] = true,
-							["version"] = 3,
 							["position"] = {
 								["y"] = 97.0000076293945,
 								["x"] = 449.678253173828,
 								["point"] = "BOTTOMLEFT",
 							},
 							["padding"] = 6,
+							["version"] = 3,
+							["showgrid"] = true,
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
@@ -100,10 +165,10 @@ Bartender4DB = {
 								["x"] = -82,
 								["point"] = "BOTTOMRIGHT",
 							},
+							["rows"] = 12,
 							["padding"] = 5,
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
@@ -111,28 +176,29 @@ Bartender4DB = {
 								["x"] = -42,
 								["point"] = "BOTTOMRIGHT",
 							},
+							["rows"] = 12,
 							["padding"] = 5,
 						}, -- [4]
 						{
 							["enabled"] = false,
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 102,
 								["x"] = 3,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [5]
 						{
-							["showgrid"] = true,
 							["enabled"] = false,
 							["version"] = 3,
+							["showgrid"] = true,
+							["padding"] = 6,
 							["position"] = {
 								["y"] = 102,
 								["x"] = -510,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [6]
 						{
 						}, -- [7]
@@ -149,6 +215,14 @@ Bartender4DB = {
 		},
 		["ExtraActionBar"] = {
 			["profiles"] = {
+				["Jones - Confrérie du Thorium"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+						["y"] = 223.000015258789,
+					},
+				},
 				["Barberose - Confrérie du Thorium"] = {
 					["version"] = 3,
 					["position"] = {
@@ -158,17 +232,27 @@ Bartender4DB = {
 					},
 				},
 				["Bryven - Confrérie du Thorium"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000015258789,
 						["x"] = -31.5000610351563,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
+				["Jones - Confrérie du Thorium"] = {
+					["version"] = 3,
+					["padding"] = -2,
+					["position"] = {
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+						["y"] = 41.75,
+					},
+				},
 				["Barberose - Confrérie du Thorium"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -180,14 +264,14 @@ Bartender4DB = {
 					},
 				},
 				["Bryven - Confrérie du Thorium"] = {
+					["padding"] = -2,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
 					},
-					["version"] = 3,
-					["padding"] = -2,
 				},
 			},
 		},
@@ -195,17 +279,26 @@ Bartender4DB = {
 			["profiles"] = {
 				["Bryven - Confrérie du Thorium"] = {
 					["enabled"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 57,
 						["x"] = -516,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 				},
 			},
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
+				["Jones - Confrérie du Thorium"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["x"] = -512,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+					},
+				},
 				["Barberose - Confrérie du Thorium"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -217,17 +310,25 @@ Bartender4DB = {
 				},
 				["Bryven - Confrérie du Thorium"] = {
 					["enabled"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 				},
 			},
 		},
 		["BagBar"] = {
 			["profiles"] = {
+				["Jones - Confrérie du Thorium"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 345,
+						["point"] = "BOTTOM",
+						["y"] = 38.5,
+					},
+				},
 				["Barberose - Confrérie du Thorium"] = {
 					["version"] = 3,
 					["position"] = {
@@ -248,6 +349,14 @@ Bartender4DB = {
 		},
 		["Vehicle"] = {
 			["profiles"] = {
+				["Jones - Confrérie du Thorium"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 99.5,
+						["point"] = "CENTER",
+						["y"] = 47.5000305175781,
+					},
+				},
 				["Barberose - Confrérie du Thorium"] = {
 					["version"] = 3,
 					["position"] = {
@@ -268,6 +377,14 @@ Bartender4DB = {
 		},
 		["StanceBar"] = {
 			["profiles"] = {
+				["Jones - Confrérie du Thorium"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.5,
+						["point"] = "CENTER",
+						["y"] = -14.9999618530273,
+					},
+				},
 				["Barberose - Confrérie du Thorium"] = {
 					["version"] = 3,
 					["position"] = {
@@ -278,18 +395,26 @@ Bartender4DB = {
 					},
 				},
 				["Bryven - Confrérie du Thorium"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 135,
 						["x"] = -460,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
 					},
-					["version"] = 3,
 				},
 			},
 		},
 		["PetBar"] = {
 			["profiles"] = {
+				["Jones - Confrérie du Thorium"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 116,
+					},
+				},
 				["Barberose - Confrérie du Thorium"] = {
 					["version"] = 3,
 					["position"] = {
@@ -312,21 +437,27 @@ Bartender4DB = {
 			["profiles"] = {
 				["Bryven - Confrérie du Thorium"] = {
 					["enabled"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 65,
 						["x"] = -516,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 				},
 			},
 		},
 	},
 	["profileKeys"] = {
+		["Jones - Confrérie du Thorium"] = "Jones - Confrérie du Thorium",
 		["Barberose - Confrérie du Thorium"] = "Barberose - Confrérie du Thorium",
 		["Bryven - Confrérie du Thorium"] = "Bryven - Confrérie du Thorium",
 	},
 	["profiles"] = {
+		["Jones - Confrérie du Thorium"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
 		["Barberose - Confrérie du Thorium"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,

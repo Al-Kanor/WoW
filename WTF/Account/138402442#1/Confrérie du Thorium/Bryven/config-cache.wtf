@@ -1,6 +1,6 @@
 SET autoLootDefault "1"
 SET autoQuestPopUps "v##$"
-SET trackedQuests "v%~a%~`%|f%~*#x#"
+SET trackedQuests "v%~`%~a%|f%~*#x#"
 SET hardTrackedQuests "v"
 SET trackedAchievements "v"
 SET cameraSavedDistance "15.000000"

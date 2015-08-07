@@ -4,7 +4,7 @@ local AceLocale = LibStub("AceLocale-3.0")
 local L = AceLocale:GetLocale("Recount")
 local BossIDs = LibStub("LibBossIDs-1.0")
 
-local revision = tonumber(string.sub("$Revision: 1333 $", 12, -3))
+local revision = tonumber(string.sub("$Revision: 1337 $", 12, -3))
 if Recount.Version < revision then
 	Recount.Version = revision
 end
@@ -1281,14 +1281,14 @@ function Recount:AddAmount(who, datatype, amount)
 	who.Fights.OverallData[datatype] = who.Fights.OverallData[datatype] + amount
 	who.Fights.CurrentFightData = who.Fights.CurrentFightData or {}
 	who.Fights.CurrentFightData[datatype] = who.Fights.CurrentFightData[datatype] or 0
-	who.Fights.CurrentFightData[datatype] = who.Fights.CurrentFightData[datatype] + amount
+	who.Fights.CurrentFightData[datatype] = who.Fights.CurrentFightData[datatype] + (amount or 0)
 
 	--Now add the time data
 	--if who.TimeWindows[datatype] then
 	who.TimeWindows = who.TimeWindows or {}
 	who.TimeWindows[datatype] = who.TimeWindows[datatype] or {}
 	who.TimeWindows[datatype][Recount.TimeStep] = who.TimeWindows[datatype][Recount.TimeStep] or 0
-	who.TimeWindows[datatype][Recount.TimeStep] = who.TimeWindows[datatype][Recount.TimeStep] + amount
+	who.TimeWindows[datatype][Recount.TimeStep] = who.TimeWindows[datatype][Recount.TimeStep] + (amount or 0)
 
 	who.TimeLast = who.TimeLast or {}
 	who.TimeLast[datatype] = Recount.CurTime
@@ -1313,10 +1313,10 @@ function Recount:AddAmount2(who, datatype, secondary, amount)
 	who.Fights = who.Fights or {}
 	who.Fights.OverallData = who.Fights.OverallData or {}
 	who.Fights.OverallData[datatype] = who.Fights.OverallData[datatype] or {}
-	who.Fights.OverallData[datatype][secondary] = (who.Fights.OverallData[datatype][secondary] or 0) + amount
+	who.Fights.OverallData[datatype][secondary] = (who.Fights.OverallData[datatype][secondary] or 0) + (amount or 0)
 	who.Fights.CurrentFightData = who.Fights.CurrentFightData or {}
 	who.Fights.CurrentFightData[datatype] = who.Fights.CurrentFightData[datatype] or {}
-	who.Fights.CurrentFightData[datatype][secondary] = (who.Fights.CurrentFightData[datatype][secondary] or 0) + amount
+	who.Fights.CurrentFightData[datatype][secondary] = (who.Fights.CurrentFightData[datatype][secondary] or 0) + (amount or 0)
 end
 
 --Two Different Types of table functions

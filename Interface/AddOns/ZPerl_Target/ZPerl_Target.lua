@@ -23,7 +23,7 @@ XPerl_RequestConfig(function(new)
 	if (XPerl_PetTarget) then
 		XPerl_PetTarget.conf = conf.pettarget
 	end
-end, "$Revision: 974 $")
+end, "$Revision: 975 $")
 
 -- Upvalues
 local _G = _G
@@ -994,7 +994,7 @@ end
 
 -- XPerl_Target_Update_Range
 function XPerl_Target_Update_Range(self)
-	if (not self.conf.range30yard or CheckInteractDistance(self.partyid, 1) or not UnitIsConnected(self.partyid)) then
+	if (not tconf.range30yard or CheckInteractDistance(self.partyid, 1) or not UnitIsConnected(self.partyid)) then
 		self.nameFrame.rangeIcon:Hide()
 	else
 		self.nameFrame.rangeIcon:Show()
@@ -1139,6 +1139,8 @@ function XPerl_Target_UpdateDisplay(self)
 		end
 
 		XPerl_Highlight:SetHighlight(self, UnitGUID(partyid))
+	
+		XPerl_Target_Update_Range(self)
 		XPerl_UpdateSpellRange(self, partyid)
 
 		XPerl_NoFadeBars()
@@ -1172,12 +1174,16 @@ function XPerl_Target_OnUpdate(self, elapsed)
 		XPerl_Target_UpdateHealth(self)
 	end
 
-	if conf.rangeFinder.enabled then
+	if self.deferring or conf.rangeFinder.enabled or tconf.range30yard then
 		self.time = self.time + elapsed
 		if (self.time > 0.2) then
 			self.time = 0
-			XPerl_Target_Update_Range(self)
-			XPerl_UpdateSpellRange(self)
+			if tconf.range30yard then
+				XPerl_Target_Update_Range(self)
+			end
+			if conf.rangeFinder.enabled then
+				XPerl_UpdateSpellRange(self)
+			end
 
 			if (self.deferring) then
 				self.deferring = nil

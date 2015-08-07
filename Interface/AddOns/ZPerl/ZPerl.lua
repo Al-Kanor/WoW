@@ -8,8 +8,8 @@ local perc1F = "%.1f"..PERCENT_SYMBOL
 
 XPerl_RequestConfig(function(New)
 	conf = New
-end, "$Revision: 974 $")
-XPerl_SetModuleRevision("$Revision: 974 $")
+end, "$Revision: 975 $")
+XPerl_SetModuleRevision("$Revision: 975 $")
 
 -- Upvalus
 local _G = _G
@@ -420,6 +420,42 @@ function XPerl_UpdateSpellRange2(self, overrideUnit, isRaidFrame)
 				mainA = conf.transparency.frame]]
 
 			elseif (UnitCanAssist("player", unit)) then
+				if (rf.Main.enabled) then
+					mainA = DoRangeCheck(unit, rf.Main)
+					if (mainA) then
+						mainA = mainA * conf.transparency.frame
+					end
+				end
+
+				if (rf.NameFrame.enabled) then
+					-- check for same item/spell. Saves doing the check multiple times
+					if (rf.Main.enabled and (rf.Main.spell == rf.NameFrame.spell) and (rf.Main.item == rf.NameFrame.item) and (rf.Main.PlusHealth == rf.NameFrame.PlusHealth)) then
+						if (mainA) then
+							nameA = rf.NameFrame.FadeAmount
+						end
+					else
+						nameA = DoRangeCheck(unit, rf.NameFrame)
+						if (not nameA and mainA) then
+							-- In range, but 'Whole' frame is out of range, so we need to override the fade for name
+							nameA = 1
+						end
+					end
+				end
+				if (rf.StatsFrame.enabled) then
+					-- check for same item/spell. Saves doing the check multiple times
+					if (rf.Main.enabled and (rf.Main.spell == rf.StatsFrame.spell) and (rf.Main.item == rf.StatsFrame.item) and (rf.Main.PlusHealth == rf.StatsFrame.PlusHealth)) then
+						if (mainA) then
+							statsA = rf.StatsFrame.FadeAmount
+						end
+					else
+						statsA = DoRangeCheck(unit, rf.StatsFrame)
+						if (not statsA and mainA) then
+							-- In range, but 'Whole' frame is out of range, so we need to override the fade for stats
+							statsA = 1
+						end
+					end
+				end
+			else
 				if (rf.Main.enabled) then
 					mainA = DoRangeCheck(unit, rf.Main)
 					if (mainA) then

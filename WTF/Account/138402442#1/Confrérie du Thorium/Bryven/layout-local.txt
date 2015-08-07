@@ -31,9 +31,9 @@ Frame: XPerl_Player
 FrameLevel: 1
 Anchor: CENTER
 X: -231
-Y: -186
+Y: -191
 W: 220
-H: 72
+H: 82
 Frame: XPerl_AdminFrameAnchor
 FrameLevel: 1
 Anchor: CENTER

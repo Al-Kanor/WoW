@@ -1,0 +1,21 @@
+------------------------------------------------------------------------
+r1338 | resike | 2015-08-05 17:27:56 +0000 (Wed, 05 Aug 2015) | 1 line
+Changed paths:
+   A /tags/v6.2.0h release (from /trunk:1337)
+
+Tagging as v6.2.0h release
+------------------------------------------------------------------------
+r1337 | Resike | 2015-08-05 17:26:29 +0000 (Wed, 05 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/Tracker.lua
+
+- Fixed some phasing lua errors.
+------------------------------------------------------------------------
+r1335 | Resike | 2015-07-21 15:00:41 +0000 (Tue, 21 Jul 2015) | 2 lines
+Changed paths:
+   M /trunk/GUI_Detail.lua
+   M /trunk/Recount_Modes.lua
+
+- Added tracking the Overhealing's HPS to the summary window.
+- Some other minor fixes.
+------------------------------------------------------------------------

@@ -9,7 +9,7 @@ XPerl_RequestConfig(function(New)
 	conf = New
 	raidconf = New.raid
 	rconf = New.raidpet
-end, "$Revision: 974 $")
+end, "$Revision: 975 $")
 
 --local new, del, copy = XPerl_GetReusableTable, XPerl_FreeTable, XPerl_CopyTable
 
@@ -368,10 +368,11 @@ function XPerl_RaidPets_Events:UNIT_EXITED_VEHICLE(unit)
 end
 
 -- GROUP_ROSTER_UPDATE
---[[function XPerl_RaidPets_Events:GROUP_ROSTER_UPDATE()
+function XPerl_RaidPets_Events:GROUP_ROSTER_UPDATE()
 	--TitlesUpdateFrame:Show()
 	--XPerl_ProtectedCall(XPerl_RaidPets_Align)
-end]]
+	XPerl_RaidPet_UpdateGUIDs()
+end
 
 -- UNIT_HEALTH
 function XPerl_RaidPets_Events:UNIT_HEALTH()
@@ -413,7 +414,7 @@ local function onAttrChanged(self, name, value)
 			SetFrameArray(self, value)		-- "raidpet"..strmatch(value, "^raid(%d+)"))
 			self.ownerid = value:gsub("(%a+)pet(%d+)", "%1%2")
 
-			if (self.lastName ~= UnitName(self.partyid)) then
+			if (self.lastID ~= value or self.lastName ~= UnitName(self.partyid)) then
 				XPerl_RaidPets_UpdateDisplay(self)
 			end
 		else
@@ -427,25 +428,25 @@ end
 -- XPerl_RaidPet_Single_OnLoad
 function XPerl_RaidPet_Single_OnLoad(self)
 	XPerl_SetChildMembers(self)
-	XPerl_RegisterPerlFrames(self)
-	self:SetScript("OnAttributeChanged", onAttrChanged)
-	XPerl_RegisterClickCastFrame(self)
-	XPerl_RegisterHighlight(self.highlight, 2)
 
 	self.edgeFile = "Interface\\Addons\\ZPerl\\Images\\XPerl_ThinEdge"
 	self.edgeSize = 10
 	self.edgeInsets = 2
 
+	XPerl_RegisterHighlight(self.highlight, 2)
+
+	XPerl_RegisterPerlFrames(self)
 	--self.FlashFrames = {self}
+
+	self:SetScript("OnAttributeChanged", onAttrChanged)
+	XPerl_RegisterClickCastFrame(self)
 
 	self:SetScript("OnShow", XPerl_RaidPets_UpdateDisplay)
 
-	--self:RegisterForClicks("AnyUp")
+	self:RegisterForClicks("AnyUp")
 	self:SetAttribute("useparent-unit", true)
-	--self:SetAttribute("*type1", "target")
-	--self:SetAttribute("type2", "togglemenu")
-
-	XPerl_RegisterClickCastFrame(self)
+	self:SetAttribute("*type1", "target")
+	self:SetAttribute("type2", "togglemenu")
 
 	--[[if (InCombatLockdown()) then
 		tinsert(taintFrames, self)
@@ -466,6 +467,8 @@ end
 
 -- SetMainHeaderAttributes
 local function SetMainHeaderAttributes(self)
+	self:Hide()
+
 	local petsPerColumn
 	if conf.raid.mana then
 		petsPerColumn = 7
@@ -512,7 +515,6 @@ local function SetMainHeaderAttributes(self)
 	self:Show()
 	self:SetAttribute("startingIndex", - maxUnits + 1)
 	self:SetAttribute("startingIndex", startingIndex)
-	self:Hide()
 
 	--self.initialConfigFunction = initialConfigFunction
 end
@@ -590,6 +592,8 @@ function XPerl_RaidPets_Titles()
 
 	XPerl_ProtectedCall(XPerl_RaidPets_HideShow)
 
+	XPerl_ProtectedCall(XPerl_RaidPets_Align)
+
 	local show = XPerl_Raid_GrpPetsUnitButton1 and XPerl_Raid_GrpPetsUnitButton1:IsShown()
 	if (XPerlLocked == 0 or (rconf.enable and show and conf.raid.titles)) then
 		XPerl_Raid_TitlePets.text:Show()
@@ -603,7 +607,7 @@ function XPerl_RaidPets_OptionActions()
 	SetMainHeaderAttributes(XPerl_Raid_GrpPets)
 
 	local events = {
-		"PLAYER_ENTERING_WORLD", --[["PLAYER_REGEN_ENABLED",]] "RAID_TARGET_UPDATE", "VARIABLES_LOADED", --[["GROUP_ROSTER_UPDATE",]] "UNIT_PET", "UNIT_ENTERED_VEHICLE", "UNIT_EXITED_VEHICLE", "PET_BATTLE_OPENING_START", "PET_BATTLE_CLOSE"
+		"PLAYER_ENTERING_WORLD", --[["PLAYER_REGEN_ENABLED",]] "RAID_TARGET_UPDATE", "VARIABLES_LOADED", "GROUP_ROSTER_UPDATE", "UNIT_PET", "UNIT_ENTERED_VEHICLE", "UNIT_EXITED_VEHICLE", "PET_BATTLE_OPENING_START", "PET_BATTLE_CLOSE"
 	}
 
 	for i, event in pairs(events) do

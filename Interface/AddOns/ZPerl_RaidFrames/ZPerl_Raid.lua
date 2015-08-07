@@ -16,13 +16,13 @@ local percD = "%d"..PERCENT_SYMBOL
 local fullyInitiallized
 local SkipHighlightUpdate
 
-local taintFrames = { }
+--local taintFrames = { }
 
 local conf, rconf
 XPerl_RequestConfig(function(newConf)
 	conf = newConf
 	rconf = conf.raid
-end, "$Revision: 974 $")
+end, "$Revision: 975 $")
 
 if type(RegisterAddonMessagePrefix) == "function" then
 	RegisterAddonMessagePrefix("CTRA")
@@ -94,7 +94,7 @@ local raidHeaders = { }
 -- XPerl_Raid_OnLoad
 function XPerl_Raid_OnLoad(self)
 	local events = {
-		--[["CHAT_MSG_ADDON", ]]"PLAYER_ENTERING_WORLD", "VARIABLES_LOADED", "COMPACT_UNIT_FRAME_PROFILES_LOADED", "GROUP_ROSTER_UPDATE", "UNIT_FLAGS", "UNIT_AURA", "UNIT_POWER_FREQUENT", "UNIT_MAXPOWER", "UNIT_HEALTH_FREQUENT", "UNIT_MAXHEALTH", "UNIT_NAME_UPDATE", "PLAYER_FLAGS_CHANGED", "UNIT_COMBAT", "UNIT_SPELLCAST_START", "UNIT_SPELLCAST_STOP", "UNIT_SPELLCAST_FAILED", "UNIT_SPELLCAST_INTERRUPTED", "READY_CHECK", "READY_CHECK_CONFIRM", "READY_CHECK_FINISHED", "RAID_TARGET_UPDATE", "PLAYER_LOGIN", "ROLE_CHANGED_INFORM", "PET_BATTLE_OPENING_START", "PET_BATTLE_CLOSE", "UNIT_CONNECTION", "PLAYER_REGEN_ENABLED"
+		--[["CHAT_MSG_ADDON", ]]"PLAYER_ENTERING_WORLD", "VARIABLES_LOADED", "COMPACT_UNIT_FRAME_PROFILES_LOADED", "GROUP_ROSTER_UPDATE", "UNIT_FLAGS", "UNIT_AURA", "UNIT_POWER_FREQUENT", "UNIT_MAXPOWER", "UNIT_HEALTH_FREQUENT", "UNIT_MAXHEALTH", "UNIT_NAME_UPDATE", "PLAYER_FLAGS_CHANGED", "UNIT_COMBAT", "UNIT_SPELLCAST_START", "UNIT_SPELLCAST_STOP", "UNIT_SPELLCAST_FAILED", "UNIT_SPELLCAST_INTERRUPTED", "READY_CHECK", "READY_CHECK_CONFIRM", "READY_CHECK_FINISHED", "RAID_TARGET_UPDATE", "PLAYER_LOGIN", "ROLE_CHANGED_INFORM", "PET_BATTLE_OPENING_START", "PET_BATTLE_CLOSE", "UNIT_CONNECTION", --[["PLAYER_REGEN_ENABLED"]]
 	}
 
 	for i, event in pairs(events) do
@@ -647,7 +647,7 @@ local function XPerl_DropDown_Initialize(self)
 	end
 end]]
 
-local function taintable(self)
+--[[local function taintable(self)
 	if not self or type(self) == "number" then
 		return
 	end
@@ -657,7 +657,7 @@ local function taintable(self)
 	self.nameFrame:SetAttribute("type2", "togglemenu")
 	self:SetAttribute("*type1", "target")
 	self:SetAttribute("type2", "togglemenu")
-end
+end]]
 
 -- XPerl_Raid_Single_OnLoad
 function XPerl_Raid_Single_OnLoad(self)
@@ -679,11 +679,18 @@ function XPerl_Raid_Single_OnLoad(self)
 
 	Setup1RaidFrame(self)
 
-	if (InCombatLockdown()) then
+	self:RegisterForClicks("AnyUp")
+	self.nameFrame:SetAttribute("useparent-unit", true)
+	self.nameFrame:SetAttribute("*type1", "target")
+	self.nameFrame:SetAttribute("type2", "togglemenu")
+	self:SetAttribute("*type1", "target")
+	self:SetAttribute("type2", "togglemenu")
+
+	--[[if (InCombatLockdown()) then
 		tinsert(taintFrames, self)
 	else
 		taintable(self)
-	end
+	end]]
 	--XPerl_SetMenuFunc(self, XPerl_DropDown_Initialize)
 	--tinsert(UnitPopupFrames, self.dropDown:GetName())
 end
@@ -1320,7 +1327,7 @@ function XPerl_Raid_Events:PLAYER_ENTERING_WORLDsmall()
 	end
 end
 
-function XPerl_Raid_Events:PLAYER_REGEN_ENABLED()
+--[[function XPerl_Raid_Events:PLAYER_REGEN_ENABLED()
 	-- Update all raid frame that would have tained
 	local tainted
 	if #taintFrames > 0 then
@@ -1339,7 +1346,7 @@ function XPerl_Raid_Events:PLAYER_REGEN_ENABLED()
 			XPerl_RaidPets_OptionActions()
 		end
 	end
-end
+end]]
 
 
 function XPerl_Raid_Events:UNIT_CONNECTION()
@@ -2458,6 +2465,7 @@ function XPerl_Raid_Set_Bits(self)
 			self:UnregisterEvent(event)
 		end
 	end
+
 	SkipHighlightUpdate = nil
 
 	if (rconf.healprediction) then

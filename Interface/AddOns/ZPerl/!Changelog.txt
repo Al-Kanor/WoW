@@ -1,3 +1,10 @@
+**r975**
+* Range finder should properly work on every type of mobs now.
+* Raid and raid pet fixes and optimisations.
+* Raid pet right click menu will work again.
+* Raid pet GUIDs should update properly.
+* Target defer redraw and 30 yard range indicator should work again.
+
 **r974**
 * Removed all hit indicators.
 * Removed the class colors to guild list option.
