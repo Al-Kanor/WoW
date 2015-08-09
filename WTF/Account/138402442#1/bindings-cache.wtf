@@ -18,19 +18,19 @@ bind 9 NONE
 bind 0 NONE
 bind ) NONE
 bind = NONE
-bind F1 CLICK BT4Button13:LeftButton
-bind F2 CLICK BT4Button14:LeftButton
-bind F3 CLICK BT4Button15:LeftButton
-bind F4 CLICK BT4Button16:LeftButton
-bind F5 CLICK BT4Button17:LeftButton
+bind F1 CLICK BT4Button61:LeftButton
+bind F2 CLICK BT4Button62:LeftButton
+bind F3 CLICK BT4Button63:LeftButton
+bind F4 CLICK BT4Button64:LeftButton
+bind F5 CLICK BT4Button65:LeftButton
 bind G ACTIONBUTTON11
 bind F ACTIONBUTTON10
-bind F12 CLICK BT4Button24:LeftButton
-bind F8 CLICK BT4Button20:LeftButton
-bind F9 CLICK BT4Button21:LeftButton
-bind F10 CLICK BT4Button22:LeftButton
-bind F11 CLICK BT4Button23:LeftButton
+bind F12 CLICK BT4Button72:LeftButton
+bind F8 CLICK BT4Button68:LeftButton
+bind F9 CLICK BT4Button69:LeftButton
+bind F10 CLICK BT4Button70:LeftButton
+bind F11 CLICK BT4Button71:LeftButton
 bind T ACTIONBUTTON4
 bind SHIFT-Z TOGGLEAUTORUN
-bind F6 CLICK BT4Button18:LeftButton
-bind F7 CLICK BT4Button19:LeftButton
+bind F6 CLICK BT4Button66:LeftButton
+bind F7 CLICK BT4Button67:LeftButton

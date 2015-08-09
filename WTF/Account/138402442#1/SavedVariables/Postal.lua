@@ -6,7 +6,8 @@ Postal3DB = {
 				"Barberose|Confrérie du Thorium|Alliance|13|ROGUE", -- [1]
 				"Bryven|Confrérie du Thorium|Alliance|32|DRUID", -- [2]
 				"Jones|Confrérie du Thorium|Alliance|1|SHAMAN", -- [3]
-				"Patron|Confrérie du Thorium|Neutral|4|WARRIOR", -- [4]
+				"Patron|Confrérie du Thorium|Alliance|15|WARRIOR", -- [4]
+				"Patron|Confrérie du Thorium|Neutral|4|WARRIOR", -- [5]
 			},
 		},
 	},

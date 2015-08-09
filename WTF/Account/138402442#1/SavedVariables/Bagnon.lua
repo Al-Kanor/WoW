@@ -16,8 +16,8 @@ Bagnon_Sets = {
 			},
 			["scale"] = 1,
 			["alpha"] = 1,
-			["y"] = 178.500015258789,
-			["x"] = -0.9998779296875,
+			["y"] = 172.499938964844,
+			["x"] = 0,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
@@ -51,8 +51,10 @@ Bagnon_Sets = {
 			},
 			["hiddenBags"] = {
 				[-1] = false,
+				[5] = false,
 			},
 			["showBags"] = true,
+			["brokerObject"] = "BagnonLauncher",
 		},
 	},
 	["engineerColor"] = {
