@@ -1,11 +1,4 @@
 Version: 1
-Frame: f1_HealBot_Action
-FrameLevel: 15
-Anchor: BOTTOMRIGHT
-X: -162
-Y: 208
-W: 160
-H: 86
 Frame: PowaOptionsFrame
 FrameLevel: 1
 Anchor: CENTER

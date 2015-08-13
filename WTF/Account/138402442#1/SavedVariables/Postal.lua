@@ -6,7 +6,7 @@ Postal3DB = {
 				"Barberose|Confrérie du Thorium|Alliance|13|ROGUE", -- [1]
 				"Bryven|Confrérie du Thorium|Alliance|32|DRUID", -- [2]
 				"Jones|Confrérie du Thorium|Alliance|1|SHAMAN", -- [3]
-				"Patron|Confrérie du Thorium|Alliance|15|WARRIOR", -- [4]
+				"Patron|Confrérie du Thorium|Alliance|30|WARRIOR", -- [4]
 				"Patron|Confrérie du Thorium|Neutral|4|WARRIOR", -- [5]
 			},
 		},
@@ -21,13 +21,19 @@ Postal3DB = {
 		["Barberose - Confrérie du Thorium"] = {
 		},
 		["Patron - Confrérie du Thorium"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Bryven|Confrérie du Thorium|Alliance", -- [1]
+				},
+			},
 		},
 		["Jones - Confrérie du Thorium"] = {
 		},
 		["Bryven - Confrérie du Thorium"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Hakraël|Confrérie du Thorium|Alliance", -- [1]
+					"Patron|Confrérie du Thorium|Alliance", -- [1]
+					"Hakraël|Confrérie du Thorium|Alliance", -- [2]
 				},
 			},
 		},

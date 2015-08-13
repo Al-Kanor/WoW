@@ -5,3 +5,5 @@ TidyPlates: disabled
 VuhDo: disabled
 VuhDoOptions: disabled
 ZPerl: enabled
+Gatherer: enabled
+Gatherer_HUD: disabled

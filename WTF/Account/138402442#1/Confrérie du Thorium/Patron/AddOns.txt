@@ -8,3 +8,6 @@ VuhDoOptions: disabled
 ZPerl: enabled
 ZPerl_RaidFrames: enabled
 ZPerl_ArcaneBar: enabled
+gathererdb_wowhead: enabled
+Gatherer: enabled
+Gatherer_HUD: disabled

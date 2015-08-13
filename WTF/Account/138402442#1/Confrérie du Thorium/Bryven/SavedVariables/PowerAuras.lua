@@ -7,16 +7,16 @@ PowaMisc = {
 	["Disabled"] = false,
 	["UserSetMaxTextures"] = 254,
 	["DefaultTimerTexture"] = "Original",
-	["Debug"] = false,
+	["AllowInspections"] = false,
 	["GroupSize"] = 1,
-	["OnUpdateLimit"] = 0,
-	["DefaultStacksTexture"] = "Original",
+	["SoundChannel"] = "Master",
+	["Locked"] = false,
 	["Version"] = "4.28.2",
 	["ScaleLocked"] = false,
 	["OverrideMaxTextures"] = false,
-	["Locked"] = false,
-	["SoundChannel"] = "Master",
-	["AllowInspections"] = false,
+	["DefaultStacksTexture"] = "Original",
+	["OnUpdateLimit"] = 0,
+	["Debug"] = false,
 }
 PowaTimer = {
 }

@@ -49,3 +49,5 @@ Chatter: disabled
 HealBot: disabled
 VuhDo: disabled
 VuhDoOptions: disabled
+Gatherer: enabled
+Gatherer_HUD: disabled

@@ -28,9 +28,9 @@ HealBot_Config = {
 	["Profile"] = 1,
 	["Skin_ID"] = 1,
 	["Version"] = "6.2.0.1",
-	["CurrentSpec"] = 1,
-	["DisableSolo"] = false,
 	["MacroUse10"] = 0,
+	["DisableSolo"] = false,
+	["CurrentSpec"] = 1,
 	["HealBot_BuffWatchGUID"] = {
 	},
 	["DisabledNow"] = 0,
@@ -46,7 +46,7 @@ HealBot_Config_Spells = {
 	},
 	["EnemySpellTrinket2"] = {
 	},
-	["EnabledSpellTrinket1"] = {
+	["EnemyKeyCombo"] = {
 	},
 	["DisabledKeyCombo"] = {
 		["ShiftLeft4"] = "inconnu",
@@ -63,23 +63,23 @@ HealBot_Config_Spells = {
 		["Left2"] = "Cible",
 		["Ctrl-ShiftLeft2"] = "Menu",
 		["ShiftLeft3"] = "inconnu",
-		["Right2"] = "Assist",
+		["Right1"] = "Assist",
 		["Ctrl-ShiftRight2"] = "menuHB",
 		["Ctrl-ShiftLeft4"] = "Menu",
 		["Right4"] = "Assist",
 		["Ctrl-ShiftLeft3"] = "Menu",
 		["ShiftLeft1"] = "inconnu",
-		["Ctrl-ShiftRight1"] = "menuHB",
-		["Ctrl-ShiftLeft"] = "Menu",
-		["ShiftLeft"] = "inconnu",
 		["Left4"] = "Cible",
-		["Right1"] = "Assist",
+		["ShiftLeft"] = "inconnu",
+		["Right2"] = "Assist",
+		["Ctrl-ShiftLeft"] = "Menu",
+		["Ctrl-ShiftRight1"] = "menuHB",
 	},
-	["DisabledSpellTarget"] = {
+	["EnabledAvoidBlueCursor"] = {
 	},
-	["ButtonCastMethod"] = 2,
 	["DisabledSpellTrinket1"] = {
 	},
+	["ButtonCastMethod"] = 2,
 	["EnabledKeyCombo"] = {
 		["Alt-ShiftLeft3"] = "Cible",
 		["Left1"] = "inconnu",
@@ -89,81 +89,41 @@ HealBot_Config_Spells = {
 		["Alt-ShiftRight1"] = "Assist",
 		["Left3"] = "inconnu",
 		["Ctrl-ShiftLeft1"] = "Menu",
-		["Ctrl-ShiftLeft3"] = "Menu",
+		["Alt-ShiftRight4"] = "Assist",
 		["Alt-ShiftLeft4"] = "Cible",
 		["Ctrl-ShiftRight4"] = "menuHB",
 		["Left2"] = "inconnu",
 		["Ctrl-ShiftLeft2"] = "Menu",
 		["Ctrl-ShiftLeft"] = "Menu",
+		["Ctrl-ShiftRight3"] = "menuHB",
 		["Ctrl-ShiftRight2"] = "menuHB",
-		["Alt-ShiftRight"] = "Assist",
 		["Ctrl-ShiftLeft4"] = "Menu",
-		["Left4"] = "inconnu",
-		["Ctrl-ShiftRight1"] = "menuHB",
+		["Alt-ShiftLeft1"] = "Cible",
+		["Ctrl-ShiftLeft3"] = "Menu",
 		["Alt-ShiftLeft2"] = "Cible",
 		["Alt-ShiftRight2"] = "Assist",
 		["Alt-ShiftRight3"] = "Assist",
-		["Alt-ShiftLeft1"] = "Cible",
-		["Ctrl-ShiftRight3"] = "menuHB",
-		["Alt-ShiftRight4"] = "Assist",
+		["Ctrl-ShiftRight1"] = "menuHB",
+		["Left4"] = "inconnu",
+		["Alt-ShiftRight"] = "Assist",
 	},
 	["DisabledAvoidBlueCursor"] = {
 	},
 	["DisabledSpellTrinket2"] = {
 	},
-	["EnabledAvoidBlueCursor"] = {
+	["DisabledSpellTarget"] = {
 	},
 	["EnemySpellTarget"] = {
 	},
-	["EnemyKeyCombo"] = {
+	["EnabledSpellTrinket1"] = {
 	},
 }
 HealBot_Config_Buffs = {
 	["LongBuffTimer"] = 120,
 	["BuffWatchInCombat"] = false,
-	["HealBotBuffDropDown"] = {
-		4, -- [1]
-		4, -- [2]
-		4, -- [3]
-		4, -- [4]
-		4, -- [5]
-		4, -- [6]
-		2, -- [7]
-		2, -- [8]
-		["42"] = 4,
-		["43"] = 4,
-		["32"] = 4,
-		["41"] = 4,
-		["47"] = 2,
-		["46"] = 4,
-		["34"] = 4,
-		["44"] = 4,
-		["48"] = 2,
-		["11"] = 4,
-		["28"] = 2,
-		["38"] = 2,
-		["21"] = 4,
-		["31"] = 4,
-		["26"] = 4,
-		["16"] = 4,
-		["24"] = 4,
-		["14"] = 4,
-		["22"] = 4,
-		["36"] = 4,
-		["37"] = 2,
-		["18"] = 2,
-		["45"] = 4,
-		["35"] = 4,
-		["25"] = 4,
-		["15"] = 4,
-		["27"] = 2,
-		["17"] = 2,
-		["13"] = 4,
-		["12"] = 4,
-		["33"] = 4,
-		["23"] = 4,
-	},
-	["HealBotBuffColR"] = {
+	["ShortBuffTimer"] = 10,
+	["BuffWatchWhenGrouped"] = true,
+	["HealBotBuffColB"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -173,7 +133,9 @@ HealBot_Config_Buffs = {
 		1, -- [7]
 		1, -- [8]
 	},
-	["HealBotBuffColB"] = {
+	["BuffWatch"] = true,
+	["NoAuraWhenRested"] = false,
+	["HealBotBuffColR"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -194,36 +156,36 @@ HealBot_Config_Buffs = {
 		"Aucun(e)", -- [8]
 		["42"] = "Aucun(e)",
 		["43"] = "Aucun(e)",
-		["32"] = "Aucun(e)",
+		["23"] = "Aucun(e)",
 		["41"] = "Aucun(e)",
 		["47"] = "Aucun(e)",
 		["46"] = "Aucun(e)",
 		["34"] = "Aucun(e)",
 		["44"] = "Aucun(e)",
 		["48"] = "Aucun(e)",
-		["11"] = "Aucun(e)",
+		["33"] = "Aucun(e)",
 		["28"] = "Aucun(e)",
 		["38"] = "Aucun(e)",
-		["21"] = "Aucun(e)",
-		["31"] = "Aucun(e)",
-		["26"] = "Aucun(e)",
-		["16"] = "Aucun(e)",
-		["24"] = "Aucun(e)",
-		["14"] = "Aucun(e)",
-		["22"] = "Aucun(e)",
-		["36"] = "Aucun(e)",
+		["12"] = "Aucun(e)",
+		["13"] = "Aucun(e)",
+		["17"] = "Aucun(e)",
+		["27"] = "Aucun(e)",
+		["15"] = "Aucun(e)",
+		["25"] = "Aucun(e)",
+		["35"] = "Aucun(e)",
+		["45"] = "Aucun(e)",
 		["37"] = "Aucun(e)",
 		["18"] = "Aucun(e)",
-		["45"] = "Aucun(e)",
-		["35"] = "Aucun(e)",
-		["25"] = "Aucun(e)",
-		["15"] = "Aucun(e)",
-		["27"] = "Aucun(e)",
-		["17"] = "Aucun(e)",
-		["13"] = "Aucun(e)",
-		["12"] = "Aucun(e)",
-		["33"] = "Aucun(e)",
-		["23"] = "Aucun(e)",
+		["36"] = "Aucun(e)",
+		["22"] = "Aucun(e)",
+		["14"] = "Aucun(e)",
+		["24"] = "Aucun(e)",
+		["16"] = "Aucun(e)",
+		["26"] = "Aucun(e)",
+		["31"] = "Aucun(e)",
+		["21"] = "Aucun(e)",
+		["11"] = "Aucun(e)",
+		["32"] = "Aucun(e)",
 	},
 	["HealBotBuffColG"] = {
 		1, -- [1]
@@ -235,10 +197,48 @@ HealBot_Config_Buffs = {
 		1, -- [7]
 		1, -- [8]
 	},
-	["NoAuraWhenRested"] = false,
-	["BuffWatch"] = true,
-	["BuffWatchWhenGrouped"] = true,
-	["ShortBuffTimer"] = 10,
+	["HealBotBuffDropDown"] = {
+		4, -- [1]
+		4, -- [2]
+		4, -- [3]
+		4, -- [4]
+		4, -- [5]
+		4, -- [6]
+		2, -- [7]
+		2, -- [8]
+		["42"] = 4,
+		["43"] = 4,
+		["23"] = 4,
+		["41"] = 4,
+		["47"] = 2,
+		["46"] = 4,
+		["34"] = 4,
+		["44"] = 4,
+		["48"] = 2,
+		["33"] = 4,
+		["28"] = 2,
+		["38"] = 2,
+		["12"] = 4,
+		["13"] = 4,
+		["17"] = 2,
+		["27"] = 2,
+		["15"] = 4,
+		["25"] = 4,
+		["35"] = 4,
+		["45"] = 4,
+		["37"] = 2,
+		["18"] = 2,
+		["36"] = 4,
+		["22"] = 4,
+		["14"] = 4,
+		["24"] = 4,
+		["16"] = 4,
+		["26"] = 4,
+		["31"] = 4,
+		["21"] = 4,
+		["11"] = 4,
+		["32"] = 4,
+	},
 }
 HealBot_Config_Cures = {
 	["CDCshownHB"] = true,
@@ -250,15 +250,15 @@ HealBot_Config_Cures = {
 		["42"] = "Aucun(e)",
 		["43"] = "Aucun(e)",
 		["41"] = "Aucun(e)",
-		["32"] = "Aucun(e)",
-		["11"] = "Aucun(e)",
-		["21"] = "Aucun(e)",
-		["31"] = "Aucun(e)",
-		["22"] = "Aucun(e)",
-		["13"] = "Aucun(e)",
-		["12"] = "Aucun(e)",
-		["33"] = "Aucun(e)",
 		["23"] = "Aucun(e)",
+		["33"] = "Aucun(e)",
+		["12"] = "Aucun(e)",
+		["13"] = "Aucun(e)",
+		["22"] = "Aucun(e)",
+		["31"] = "Aucun(e)",
+		["21"] = "Aucun(e)",
+		["11"] = "Aucun(e)",
+		["32"] = "Aucun(e)",
 	},
 	["IgnoreFastDurDebuffs"] = true,
 	["ShowDebuffWarning"] = true,
@@ -269,17 +269,14 @@ HealBot_Config_Cures = {
 	["IgnoreNonHarmfulDebuffs"] = true,
 	["IgnoreClassDebuffs"] = true,
 	["HealBot_CDCWarnRange_Bar"] = 3,
-	["HealBot_Custom_Defuffs_All"] = {
-		["Poison"] = false,
-		["Curse"] = false,
-		["Magic"] = false,
-		["Disease"] = false,
-	},
+	["IgnoreFastDurDebuffsSecs"] = 2,
 	["HealBot_CDCWarnRange_Sound"] = 3,
 	["SoundDebuffPlay"] = "Tribal Bass Drum",
 	["SoundDebuffWarning"] = false,
 	["CDCshownAB"] = false,
 	["IgnoreFriendDebuffs"] = true,
+	["DebuffWatchWhenGrouped"] = false,
+	["IgnoreOnCooldownDebuffs"] = false,
 	["HealBotDebuffDropDown"] = {
 		4, -- [1]
 		4, -- [2]
@@ -287,38 +284,36 @@ HealBot_Config_Cures = {
 		["42"] = 4,
 		["43"] = 4,
 		["41"] = 4,
-		["32"] = 4,
-		["11"] = 4,
-		["21"] = 4,
-		["31"] = 4,
-		["22"] = 4,
-		["13"] = 4,
-		["12"] = 4,
-		["33"] = 4,
 		["23"] = 4,
+		["33"] = 4,
+		["12"] = 4,
+		["13"] = 4,
+		["22"] = 4,
+		["31"] = 4,
+		["21"] = 4,
+		["11"] = 4,
+		["32"] = 4,
 	},
-	["IgnoreOnCooldownDebuffs"] = false,
-	["DebuffWatchWhenGrouped"] = false,
 	["CDCBarColour"] = {
-		["Poison"] = {
-			["R"] = 0.12,
-			["G"] = 0.46,
-			["B"] = 0.24,
+		["Disease"] = {
+			["B"] = 0.7,
+			["G"] = 0.19,
+			["R"] = 0.55,
 		},
-		["Curse"] = {
-			["R"] = 0.83,
-			["G"] = 0.43,
-			["B"] = 0.09,
+		["Poison"] = {
+			["B"] = 0.24,
+			["G"] = 0.46,
+			["R"] = 0.12,
 		},
 		["Magic"] = {
-			["R"] = 0.26,
-			["G"] = 0.33,
 			["B"] = 0.83,
+			["G"] = 0.33,
+			["R"] = 0.26,
 		},
-		["Disease"] = {
-			["R"] = 0.55,
-			["G"] = 0.19,
-			["B"] = 0.7,
+		["Curse"] = {
+			["B"] = 0.09,
+			["G"] = 0.43,
+			["R"] = 0.83,
 		},
 	},
 	["HealBotDebuffPriority"] = {
@@ -328,5 +323,10 @@ HealBot_Config_Cures = {
 		["Magic"] = 5,
 		["Curse"] = 6,
 	},
-	["IgnoreFastDurDebuffsSecs"] = 2,
+	["HealBot_Custom_Defuffs_All"] = {
+		["Disease"] = false,
+		["Poison"] = false,
+		["Magic"] = false,
+		["Curse"] = false,
+	},
 }
