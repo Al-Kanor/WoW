@@ -16,6 +16,6 @@ PowaGlobalListe = {
 PowaGlobalMisc = {
 	["PathToSounds"] = "Interface\\AddOns\\PowerAuras\\Sounds\\",
 	["PathToAuras"] = "Interface\\AddOns\\PowerAuras\\Custom\\",
-	["BlockIncomingAuras"] = false,
 	["FixExports"] = false,
+	["BlockIncomingAuras"] = false,
 }

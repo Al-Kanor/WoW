@@ -2,7 +2,7 @@ ZPerl_Options: enabled
 XPerl_TeamSpeak: disabled
 HealBot: disabled
 Omen: disabled
-TidyPlates: disabled
+TidyPlates: enabled
 VuhDo: disabled
 VuhDoOptions: disabled
 ZPerl: enabled

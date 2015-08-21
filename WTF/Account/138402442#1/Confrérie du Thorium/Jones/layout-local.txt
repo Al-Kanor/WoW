@@ -141,9 +141,9 @@ W: 330
 H: 124
 Frame: XPerl_RaidMonitor_Anchor
 FrameLevel: 1
-Anchor: CENTER
-X: -277
-Y: -156
+Anchor: BOTTOMRIGHT
+X: -28
+Y: 223
 W: 200
 H: 80
 Frame: XPerl_Target
@@ -174,10 +174,3 @@ X: -548
 Y: -287
 W: 160
 H: 60
-Frame: XPerl_OptionsAnchor
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -207
-Y: -57
-W: 857
-H: 540

@@ -1,9 +1,10 @@
 ZPerl_Options: enabled
 HealBot: disabled
 Omen: disabled
-TidyPlates: disabled
+TidyPlates: enabled
 VuhDo: disabled
 VuhDoOptions: disabled
 ZPerl: enabled
 Gatherer: enabled
 Gatherer_HUD: disabled
+XPerl_TeamSpeak: disabled

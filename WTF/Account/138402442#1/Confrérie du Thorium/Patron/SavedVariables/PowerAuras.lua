@@ -13,8 +13,8 @@ PowaMisc = {
 	["DefaultStacksTexture"] = "Original",
 	["Version"] = "4.28.2",
 	["ScaleLocked"] = false,
-	["OverrideMaxTextures"] = false,
 	["Locked"] = false,
+	["OverrideMaxTextures"] = false,
 	["SoundChannel"] = "Master",
 	["AllowInspections"] = false,
 }

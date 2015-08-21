@@ -1,4 +1,4 @@
-TidyPlates: disabled
+TidyPlates: enabled
 TidyPlatesHub: enabled
 TidyPlatesWidgets: enabled
 TidyPlates_Graphite: enabled

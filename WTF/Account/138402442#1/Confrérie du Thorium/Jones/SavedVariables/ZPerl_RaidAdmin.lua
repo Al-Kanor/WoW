@@ -1,22 +1,22 @@
 
 ZPerl_Admin = {
-	["ResistSort"] = "fr",
 	["Transparency"] = 0.8,
+	["ResistSort"] = "fr",
 	["SavedRosters"] = {
 	},
 	["AutoHideShow"] = 1,
 }
 ZPerl_CheckItems = {
 	{
-		["link"] = "dur",
 		["fixed"] = true,
+		["link"] = "dur",
 	}, -- [1]
 	{
-		["link"] = "reg",
 		["fixed"] = true,
+		["link"] = "reg",
 	}, -- [2]
 	{
-		["link"] = "res",
 		["fixed"] = true,
+		["link"] = "res",
 	}, -- [3]
 }
